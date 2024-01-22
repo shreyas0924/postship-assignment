@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from './ui/button'
+import { Card, CardHeader } from './ui/card'
 
 const Performance: React.FC = () => {
   return (
@@ -17,7 +18,14 @@ const Performance: React.FC = () => {
       </div>
 
       <div>
-        <div>Card1</div>
+        <Card>
+          <CardHeader>
+            <div className='flex flex-row items-start'>
+              <div>Shipment Updates</div>
+              <div className='ml-auto'>Total Orders : 394</div>
+            </div>
+          </CardHeader>
+        </Card>
         <div>Card2</div>
         <div>Card3</div>
       </div>
