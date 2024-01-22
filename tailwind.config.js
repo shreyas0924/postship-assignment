@@ -8,6 +8,7 @@ module.exports = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
   ],
+  mode: 'jit',
   prefix: '',
   theme: {
     container: {
