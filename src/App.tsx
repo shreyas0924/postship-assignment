@@ -1,3 +1,4 @@
+import Functionality from './components/functionality'
 import Navbar from './components/navbar'
 import Performance from './components/performance'
 import Welcome from './components/welcome'
@@ -10,6 +11,7 @@ export default function App() {
         <Navbar />
         <Welcome />
         <Performance />
+        <Functionality />
       </AppProvider>
     </main>
   )
