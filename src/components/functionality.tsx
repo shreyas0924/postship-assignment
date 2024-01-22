@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent, CardFooter, CardHeader } from './ui/card'
+import { Card, CardContent, CardHeader } from './ui/card'
 import { Button, Label, TextField } from '@shopify/polaris'
 
 const Functionality: React.FC = () => {
@@ -54,7 +54,7 @@ const Functionality: React.FC = () => {
             </div>
           </CardContent>
 
-          <CardFooter className='flex gap-2 my-2 py-3'>
+          <CardContent className='flex gap-2 my-2 pt-4'>
             <Button variant='secondary' accessibilityLabel='Preview'>
               Preview
             </Button>
@@ -62,7 +62,7 @@ const Functionality: React.FC = () => {
             <Button variant='primary' accessibilityLabel='Apply Colors'>
               Apply Colors
             </Button>
-          </CardFooter>
+          </CardContent>
         </Card>
 
         <div className='flex flex-col gap-3 w-[40%] items-start'>
@@ -75,11 +75,11 @@ const Functionality: React.FC = () => {
               streamline your experience.
             </CardContent>
 
-            <CardFooter className='flex gap-2 my-2 py-3'>
+            <CardContent className='flex gap-2 my-2 py-3'>
               <Button variant='primary' accessibilityLabel='Schedule A Call'>
                 Schedule A Call
               </Button>
-            </CardFooter>
+            </CardContent>
           </Card>
           <Card className='w-full'>
             <CardHeader className='text-sm font-[650]'>
@@ -96,11 +96,11 @@ const Functionality: React.FC = () => {
               <img src='/analytics.png' alt='Analytics' />
               <img src='/graph.png' alt='Graph' />
             </CardContent>
-            <CardFooter className='flex gap-2 my-2 py-3'>
+            <CardContent className='flex gap-2 my-2 py-3'>
               <Button variant='primary' accessibilityLabel='Schedule A Call'>
                 Explore Integrations
               </Button>
-            </CardFooter>
+            </CardContent>
           </Card>
         </div>
 
@@ -121,7 +121,7 @@ const Functionality: React.FC = () => {
               className='h-40 w-full rounded-xl resize-none p-2 border border-gray-500'
             />
           </CardContent>
-          <CardFooter className='mt-auto flex gap-2 pt-11'>
+          <CardContent className='mt-auto flex gap-2 pt-2'>
             <Button variant='secondary' accessibilityLabel='Preview'>
               Preview
             </Button>
@@ -129,7 +129,7 @@ const Functionality: React.FC = () => {
             <Button variant='primary' accessibilityLabel='Apply Changes'>
               Apply Changes
             </Button>
-          </CardFooter>
+          </CardContent>
         </Card>
       </section>
     </div>
