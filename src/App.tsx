@@ -1,7 +1,16 @@
+import Navbar from './components/navbar'
+import Performance from './components/performance'
+import Welcome from './components/welcome'
+import { AppProvider } from '@shopify/polaris'
+import enTranslations from '@shopify/polaris/locales/en.json'
 export default function App() {
   return (
-    <h1 className='text-3xl font-bold text-center underline'>
-      Hello Postship assignment
-    </h1>
+    <main className=''>
+      <AppProvider i18n={enTranslations}>
+        <Navbar />
+        <Welcome />
+        <Performance />
+      </AppProvider>
+    </main>
   )
 }
