@@ -76,7 +76,7 @@ const Welcome: React.FC = () => {
       <img src='/box.svg' className='absolute opacity-25 left-[64%] top-16 ' />
       <img
         src='/box.svg'
-        className='fixed opacity-25 left-[95%] top-36 overflow-x-hidden '
+        className='fixed opacity-25 left-[92%] top-36 overflow-x-hidden '
       />
     </div>
   )
