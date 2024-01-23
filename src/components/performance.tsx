@@ -44,7 +44,7 @@ const CardFrame = ({ name, value, icon, bgColor }: CardProps) => {
 
 const Performance: React.FC = () => {
   return (
-    <div className='bg-[#FFF7EE] px-[8%] py-8'>
+    <div className=' bg-[#FFF7EE] px-[8%] py-14 relative'>
       <h1 className='text-[#4A4A4A] text-2xl font-bold'>
         Instant Dive into Your Performance Metrics
       </h1>

@@ -4,7 +4,7 @@ import { Button, Label, TextField } from '@shopify/polaris'
 
 const Functionality: React.FC = () => {
   return (
-    <div className='bg-[#FEFCFA] px-[8%] py-8 text-[#4A4A4A]'>
+    <div className='bg-[#FEFCFA] px-[8%] py-14 text-[#4A4A4A]'>
       <h1 className=' text-2xl font-bold'>
         Discover the Heart of Our Functionality
       </h1>

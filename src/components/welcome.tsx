@@ -4,12 +4,12 @@ import { Card, CardContent, CardHeader } from './ui/card'
 
 const Welcome: React.FC = () => {
   return (
-    <div className='bg-[#FEFCFA] px-[8%] py-10 pt-24 '>
+    <div className='bg-[#FEFCFA] px-[8%] py-10 pt-24 z-10'>
       <h1 className='text-2xl font-bold line-clamp-2 text-[#4A4A4A]'>
         Welcome, John Mathew!!
       </h1>
-      <div className='flex gap-4 my-6'>
-        <Card className='w-[28%]'>
+      <div className='flex gap-4 my-6 '>
+        <Card className='w-[28%] z-10'>
           <CardHeader className='text-sm font-[650] pb-3'>
             Order Sync Successful!
           </CardHeader>
@@ -24,7 +24,7 @@ const Welcome: React.FC = () => {
             </Button>
           </CardContent>
         </Card>
-        <Card className='w-[28%] bg-[#FFF8DB]'>
+        <Card className='w-[28%] bg-[#FFF8DB] z-10'>
           <CardHeader className='pb-3'>
             <div className='text-sm font-[650] flex flex-row items-center gap-x-1 text-[#5E4200]'>
               <img src='/alert.svg' className='' />
@@ -42,7 +42,7 @@ const Welcome: React.FC = () => {
             </Button>
           </CardContent>
         </Card>
-        <Card className='w-[28%] bg-[#EAF4FF] text-[#4A4A4A]'>
+        <Card className='w-[28%] bg-[#EAF4FF] text-[#4A4A4A] z-10'>
           <CardHeader className='pb-3'>
             <div className='text-sm font-[650] flex flex-row items-center gap-x-1'>
               <img src='/info.svg' className='' />
@@ -74,9 +74,10 @@ const Welcome: React.FC = () => {
       <img src='/box.svg' className='absolute opacity-25 left-[40%] top-6 ' />
       <img src='/box.svg' className='absolute opacity-25 left-[55%] top-60 ' />
       <img src='/box.svg' className='absolute opacity-25 left-[64%] top-16 ' />
+      <img src='/box.svg' className='absolute opacity-25 left-[72%] top-80 ' />
       <img
         src='/box.svg'
-        className='fixed opacity-25 left-[92%] top-36 overflow-x-hidden '
+        className='absolute opacity-25 left-[85%] top-36   '
       />
     </div>
   )
