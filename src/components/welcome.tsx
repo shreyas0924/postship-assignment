@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader } from './ui/card'
 
 const Welcome: React.FC = () => {
   return (
-    <div className='bg-[#FEFCFA] px-[8%] py-10 pt-24'>
+    <div className='bg-[#FEFCFA] px-[8%] py-10 pt-24 '>
       <h1 className='text-2xl font-bold line-clamp-2 text-[#4A4A4A]'>
         Welcome, John Mathew!!
       </h1>
@@ -68,6 +68,16 @@ const Welcome: React.FC = () => {
           </CardContent>
         </Card>
       </div>
+      <img src='/box.svg' className='absolute opacity-25 left-20 top-60 ' />
+      <img src='/box.svg' className='absolute opacity-25 left-[18%] top-16' />
+      <img src='/box.svg' className='absolute opacity-25 left-[35%] top-64 ' />
+      <img src='/box.svg' className='absolute opacity-25 left-[40%] top-6 ' />
+      <img src='/box.svg' className='absolute opacity-25 left-[55%] top-60 ' />
+      <img src='/box.svg' className='absolute opacity-25 left-[64%] top-16 ' />
+      <img
+        src='/box.svg'
+        className='fixed opacity-25 left-[95%] top-36 overflow-x-hidden '
+      />
     </div>
   )
 }
