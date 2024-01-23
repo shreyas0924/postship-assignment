@@ -1,7 +1,7 @@
 import React from 'react'
 const Navbar: React.FC = () => {
   return (
-    <main className='flex border-b-2 border-[#8A8A8A] text-[14px] font-[650]  px-[6%] h-[56px] justify-center items-center bg-white'>
+    <main className='flex border-b-2 border-[#8A8A8A] text-[14px] font-[650]  px-[8%] h-[56px] justify-center items-center bg-white'>
       <section className='flex text-[#4A4A4A] gap-[32px] '>
         <div className='border-b-[4px]  w-[24px] border-[#8051FF]'>Home</div>
         <div className='pl-[18px]'>Orders</div>

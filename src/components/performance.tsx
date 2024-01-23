@@ -44,7 +44,7 @@ const CardFrame = ({ name, value, icon, bgColor }: CardProps) => {
 
 const Performance: React.FC = () => {
   return (
-    <div className='bg-[#FFF7EE] px-[6%] py-8'>
+    <div className='bg-[#FFF7EE] px-[8%] py-8'>
       <h1 className='text-[#4A4A4A] text-2xl font-bold'>
         Instant Dive into Your Performance Metrics
       </h1>
@@ -79,7 +79,7 @@ const Performance: React.FC = () => {
               </div>
             </div>
           </CardHeader>
-          <CardContent className='flex gap-x-4 overflow-x-hidden mr-5'>
+          <CardContent className='flex gap-x-1.5 overflow-x-hidden mr-6'>
             <Button variant={'tertiary'} className='bg-[#FFF1E3]'>
               Delivered
             </Button>
@@ -91,12 +91,12 @@ const Performance: React.FC = () => {
           <CardContent>
             <img src='/chart.svg' alt='Chart' className='mx-auto' />
           </CardContent>
-          <CardContent className='flex flex-row gap-x-4'>
+          <CardContent className='flex flex-row gap-x-4 mt-3'>
             <ChartReading name='Exception' color='#5E4200' />
             <ChartReading name='Intransit' color='#956F00' />
             <ChartReading name='Pending' color='#E5A500' />
           </CardContent>
-          <CardContent className='flex flex-row gap-x-4 -mt-3'>
+          <CardContent className='flex flex-row gap-x-4 '>
             <ChartReading name='Delivered' color='#FFC879' />
             <ChartReading name='Out for delivery' color='#FFDDB6' />
           </CardContent>
@@ -111,23 +111,24 @@ const Performance: React.FC = () => {
               There are 8 shipments that have been in out for delivery for more
               than 3 days.
             </div>
-            <div className='text-sm mt-3'>
+            <div className='text-sm my-3'>
               There are 5 shipments in exception rigth now
             </div>
-            <div className='text-sm mt-3'>
+
+            <div className='text-sm my-3'>
               The maximum chargebacks are from Miami
             </div>
           </section>
+          <div className='mt-auto pb-2'>
+            <ButtonShopify>Check Orders Page</ButtonShopify>
+          </div>
           <img
             src='/orange.svg'
             alt='Orange Blur'
             width={70}
             height={70}
-            className='ml-auto'
+            className='ml-auto pr-0 absolute right-0 bottom-32'
           />
-          <div className='mt-auto'>
-            <ButtonShopify>Check Orders Page</ButtonShopify>
-          </div>
         </Card>
 
         <Card className='w-2/5'>
@@ -142,7 +143,7 @@ const Performance: React.FC = () => {
             Understand user engagement patterns and optimize your tracking page
             for enhanced customer experiences.
           </CardContent>
-          <CardContent className='flex flex-col gap-5'>
+          <CardContent className='flex flex-col gap-5 mt-4'>
             <CardFrame
               bgColor='#FFEBD5'
               icon='order'
