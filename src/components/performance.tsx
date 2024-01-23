@@ -49,7 +49,7 @@ const Performance: React.FC = () => {
         Instant Dive into Your Performance Metrics
       </h1>
 
-      <div className='flex gap-4 my-6'>
+      <div className='flex gap-3 my-6'>
         <Button
           variant={'secondary'}
           className='border-[#8051FF] border bg-[#F8F7FF]'

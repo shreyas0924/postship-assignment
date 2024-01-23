@@ -118,10 +118,10 @@ const Functionality: React.FC = () => {
             <textarea
               autoComplete='off'
               placeholder='Value'
-              className='h-40 w-full rounded-xl resize-none p-2 border border-gray-500'
+              className='h-32 w-full mt-2 rounded-xl resize-none p-2 border border-gray-500'
             />
           </CardContent>
-          <CardContent className='mt-auto flex gap-2 pt-2'>
+          <CardContent className='mt-auto flex gap-2 pt-10'>
             <Button variant='secondary' accessibilityLabel='Preview'>
               Preview
             </Button>
