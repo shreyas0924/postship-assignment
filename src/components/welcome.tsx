@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader } from './ui/card'
 
 const Welcome: React.FC = () => {
   return (
-    <div className='bg-[#FEFCFA] px-[8%] py-10'>
+    <div className='bg-[#FEFCFA] px-[8%] py-10 pt-24'>
       <h1 className='text-2xl font-bold line-clamp-2 text-[#4A4A4A]'>
         Welcome, John Mathew!!
       </h1>
